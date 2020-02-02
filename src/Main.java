@@ -12,7 +12,7 @@ public class Main {
             e.printStackTrace();
         } catch (MyArrayDataException e) {
             e.printStackTrace();
-            System.err.println("Это элемент[" + e.getI() + "]" + "[" + e.getJ() + "]");
+            System.err.println("Это   элемент[" + e.getI() + "]" + "[" + e.getJ() + "]");
         }
 
 
